@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: demo-api
+  cloud:
+    config:
+      enabled: false
+    bus:
+      enabled: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost/eureka
